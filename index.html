@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Navidad</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" href="image/ico.png">
+</head>
+
+<body>
+    <header>
+        <h1>¡Feliz Navidad!</h1>
+    </header>
+
+    <!-- Contenedor de estrellas -->
+    <div class="star-container">
+        <div class="star"></div>
+    </div>
+
+    <!-- Canvas para el árbol de Navidad -->
+    <div class="frame">
+        <canvas id="tree"></canvas>
+    </div>
+
+    <!-- Mensaje personal -->
+    <p class="p1">
+        Aunque recién estamos conociéndonos, 
+        hay algo en ti que me intriga y me hace querer saber más. 
+        Me encantaría descubrir todo lo que hace que seas tan especial.
+    </p>
+    <video width="640" height="360" autoplay muted loop>
+        <source src="image\santa.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+    </video>
+
+    <!-- Copos de nieve animados -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p> &copy; 2024 - Todos los derechos reservados por Menfroyt </p>
+    </footer>
+
+    <audio id="audio" autoplay loop>
+        <source src="image\audio.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
